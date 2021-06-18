@@ -9,7 +9,7 @@ permalink: /
 # Get to know more about jiju.co
 {: .fs-9 }
 
-Jiju Docs. is a platform managed by the sys admin to empower both new developers, agents, and other team members. This website will cover most of the necessary info to make your life smoother while managing jiju.co ecommerce platform.
+Welcome to Jiju Docs., an online platform managed by the sys admin to empower both new developers, agents, and other team members. 
 {: .fs-6 .fw-300 }
 
 [Login to jiju.co](https://jiju.co/login){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Visit Agent Area](https://jiju.co/agent-area){: .btn .fs-5 .mb-4 .mb-md-0 }
