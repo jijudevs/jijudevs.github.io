@@ -2,17 +2,17 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Welcome to jiju.co's official documentation website. This website is made for developers, agents, and other team members."
 permalink: /
 ---
 
-# Focus on writing good documentation
+# Get to know more about jiju.co
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+Jiju Docs. is a platform managed by the sys admin to empower both new developers, agents, and other team members. This website will cover most of the necessary info to make your life smoother while managing jiju.co ecommerce platform.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Login to jiju.co](https://jiju.co/login){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Visit Agent Area](https://jiju.co/agent-area){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
