@@ -32,7 +32,7 @@ Create an email address by going to Email -> Create Email.
 
 Fill out the form, specifying our main domain name (jiju.co), and choose an email address and password. 
 
-![enter image description here](https://raw.githubusercontent.com/jijudevs/jijudevs.github.io/main/uploads/create-email-ID.gif)
+![How to create an email ID](https://raw.githubusercontent.com/jijudevs/jijudevs.github.io/main/uploads/jiju-create-email-ID.gif)
 
 
 #### Editor
