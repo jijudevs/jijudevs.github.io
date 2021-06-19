@@ -16,6 +16,7 @@ Welcome to Jiju Docs., an online platform managed by the sys admin to empower bo
 
 ---
 
+
 ## Getting started
 
 The following tutorial will cover essential groundwork required to create a @jiju.co email ID and jiju.co agent profiles. Before jumping into the tutorial, let me introduce our control panel.
@@ -26,13 +27,37 @@ We use CyberPanel, a sophisticated control panel to manage our ecommerce resourc
 
 ### How to create an email ID
 
-Login to [mail.jiju.co:8090](https://mail.jiju.co:8090/) 
-
-Create an email address by going to Email -> Create Email.
-
-Fill out the form, specifying our main domain name (jiju.co), and choose an email address and password. 
+Login to [mail.jiju.co:8090](https://mail.jiju.co:8090/). Create an email address by going to Email -> Create Email. Fill out the form, specifying our main domain name (jiju.co), and choose an email address and password. 
 
 ![How to create an email ID](https://raw.githubusercontent.com/jijudevs/jijudevs.github.io/main/uploads/jiju-create-email-ID.gif)
+### How to create an agent profile
+
+Visit [https://jiju.co/wp-admin/user-new.php](https://jiju.co/wp-admin/user-new.php) to create the agent profile. Only admin groups have the permissions to add, edit, and delete users. 
+
+![how to create agent profile on jiju.co](https://raw.githubusercontent.com/jijudevs/jijudevs.github.io/main/uploads/add-new-user.png)
+
+While adding a new agent, make sure to: 
+* Fill in the right username and email ID. 
+* Set the site language to Simplified Chinese. 
+* Set the role as shop manager.
+* Set ☑ for **Add the user as an affiliate**.
+
+### Setting short URL and UTM tags.
+
+By default, our agent URL structure is https://jiju.co/agent/tom. But we're to add the tracking parameters, and shorten the URL further.
+
+The tracking URL structure: https://jiju.co/agent/tom/?utm_source=web&utm_medium=marketing&utm_campaign=tom
+
+This is the universal structure, and you can replace "tom" with the agent username. For example, if it's "alice" is one of our agents, the tracking URL would be: https://jiju.co/agent/alice/?utm_source=web&utm_medium=marketing&utm_campaign=alice
+
+Now that we've created the tracking URL. The next step is to prettify the URL and share it with team leaders. We use a plugin called **Redirection** for the same. Which is accessible by visiting [https://jiju.co/wp-admin/tools.php?page=redirection.php](https://jiju.co/wp-admin/tools.php?page=redirection.php)
+
+Once you're the **Redirection** dashboard, you can shorten the URL as follows:
+
+![add redirection](https://raw.githubusercontent.com/jijudevs/jijudevs.github.io/main/uploads/redirection-set-up.png)
+Essentially **https://jiju.co/tom** would redirect to **https://jiju.co/agent/tom/?utm_source=web&utm_medium=marketing&utm_campaign=tom**, which contains both the Affiliate WP and Google Analytics tracking parameters.
+
+**Note:** Affiliate WP is a plugin we use to manage the agent profiles. Please refer to [affiliate area overview](https://docs.affiliatewp.com/article/54-creating-the-affiliate-area) to understand the logic behind that plugin.
 
 
 #### Editor
