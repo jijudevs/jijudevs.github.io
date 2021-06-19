@@ -53,11 +53,9 @@ By default, our agent URL structure is https://jiju.co/agent/tom. But we're to a
 
 The tracking URL structure: https://jiju.co/agent/tom/?utm_source=web&utm_medium=marketing&utm_campaign=tom
 
-This is the universal structure, and you can replace "tom" with the agent username. For example, if it's "alice" is one of our agents, the tracking URL would be: https://jiju.co/agent/alice/?utm_source=web&utm_medium=marketing&utm_campaign=alice
+This is the universal structure, and you can replace "tom" with the agent username. For example, if "alice" is one of our agents, the tracking URL would be: https://jiju.co/agent/alice/?utm_source=web&utm_medium=marketing&utm_campaign=alice
 
-Now that we've created the tracking URL. The next step is to prettify the URL and share it with team leaders. We use a plugin called **Redirection** for the same. Which is accessible by visiting [https://jiju.co/wp-admin/tools.php?page=redirection.php](https://jiju.co/wp-admin/tools.php?page=redirection.php)
-
-Once you're the **Redirection** dashboard, you can shorten the URL as follows:
+Now that we've created the tracking URL, the next step is to prettify the URL and share it with team leaders. We use a plugin called **Redirection** for the same. Which is accessible at [https://jiju.co/wp-admin/tools.php?page=redirection.php](https://jiju.co/wp-admin/tools.php?page=redirection.php). Once you're in the **Redirection** dashboard, you can shorten the URL as shown below:
 
 ![add redirection](https://raw.githubusercontent.com/jijudevs/jijudevs.github.io/main/uploads/redirection-set-up.png)
 Essentially **https://jiju.co/tom** would redirect to **https://jiju.co/agent/tom/?utm_source=web&utm_medium=marketing&utm_campaign=tom**, which contains both the Affiliate WP and Google Analytics tracking parameters.
