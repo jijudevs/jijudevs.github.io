@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Email Configuration
-nav_order: 2
+nav_exclude: true
 ---
 
 # Email Configuration
