@@ -10,13 +10,37 @@ nav_order: 2
 Email configuration to connect mail.jiju.co with external mailers.
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## Full details to configure mail clients
 
-1. TOC
-{:toc}
+|**POP3**|**Details**|
+|--|--|
+|Server Hostname|mail.jiju.co|
+|Port|110|
+|Port|995 (SSL)|
+|SSL|STARTTLS|
 
----
+|**IMAP**|**Details**|
+|--|--|
+|Server Hostname|mail.jiju.co|
+|Port|143|
+|Port|993 (SSL)|
+|SSL|STARTTLS|
+
+|**SMTP**|**Details**|
+|--|--|
+|Server Hostname|mail.jiju.co|
+|Port|25|
+|Port|587 (SSL)|
+|Port|465 (SSL)|
+|SSL|STARTTLS|
 
 
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
+#### Editor
+
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+</ul>
