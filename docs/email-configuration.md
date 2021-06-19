@@ -10,6 +10,10 @@ nav_order: 2
 Config to access Jiju emails on platforms such as QQ, NetEase, Gmail, etc.
 {: .fs-6 .fw-300 }
 
+[Login to jiju.co](https://jiju.co/login){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Jiju Mailbox](https://jiju.co/mail){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
+
 ## Full details to configure mail clients
 
 |**POP3**|**Details**|
