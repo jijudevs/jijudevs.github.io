@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration
+title: Email Configuration
 nav_order: 2
 ---
 
