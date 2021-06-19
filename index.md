@@ -30,6 +30,11 @@ We use CyberPanel, a sophisticated control panel to manage our ecommerce resourc
 Login to [mail.jiju.co:8090](https://mail.jiju.co:8090/). Create an email address by going to Email -> Create Email. Fill out the form, specifying our main domain name (jiju.co), and choose an email address and password. 
 
 ![How to create an email ID](https://raw.githubusercontent.com/jijudevs/jijudevs.github.io/main/uploads/jiju-create-email-ID.gif)
+
+### How to use the mailbox
+
+Visit [jiju.co/mail](https://jiju.co/mail) and login with the rightful credentials.
+
 ### How to create an agent profile
 
 Visit [https://jiju.co/wp-admin/user-new.php](https://jiju.co/wp-admin/user-new.php) to create the agent profile. Only admin groups have the permissions to add, edit, and delete users. 
