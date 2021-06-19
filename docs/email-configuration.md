@@ -7,7 +7,7 @@ nav_order: 2
 # Email Configuration
 {: .no_toc }
 
-Email configuration to connect mail.jiju.co with external mailers.
+Config to access Jiju emails on platforms such as QQ, NetEase, Gmail, etc.
 {: .fs-6 .fw-300 }
 
 ## Full details to configure mail clients
